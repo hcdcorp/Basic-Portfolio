@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-right: solid 1px #ccc;
+  padding-right: 40px;
+}
+
+li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+ul{
+  color: white;
+}
+h2{
+  color: white;
+}
+
+.nav {
+  float: right;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  border-bottom: 2px solid #ccc;
+  color: white
+}
+
+.header .logo {
+  float: left;
+  font-size: 20px;
+  background: #4aaaa5;
+  padding: 0 20px;
+}
+
+.container, .content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 130px;
+}
+
+p{
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  float: right;
+  border: 15px;
+  border-color: white
+}
+
+.feet{
+  float: left;
+  position: fixed;
+  bottom: 0;
+
+}
+img{
+  z-index:-1 
+  position:relative
+}
+iframe{
+
+  border:20px;
+  color: white;
+  clear: both;
+  padding: 75px
+}
+footer {
+  padding: 20px;
+  clear: both;
+  background:#4aaaa5 ;
+  display: block;
+  content: ""
+  color: white;
+  position: fixed;
+  align-content: center;
+}
+
+.full{
+  float: right;
+  width: 33%;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: white;
+  border: 20px dashed #4aaaa5;
+}
