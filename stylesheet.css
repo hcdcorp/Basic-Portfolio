@@ -79,8 +79,14 @@ position: absolute;
 
 }
 img{
-  z-index:-1 
-  position:relative
+  
+  width: 33%;
+  height: 300px;
+  padding: 100px;
+  margin-left: 350px;
+  background: black;
+  border: 20px dashed black;
+
 }
 iframe{
 
